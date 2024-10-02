@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+header img{
+    Width:15em;
+    background-color: black;
+    padding-left: 1em;
+}
+
+nav{
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 4em;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 2em;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-right:1em;
+    
+}
+
+a:hover{
+    color: #FFDD10;
+    transition:500ms;
+    
+}
+
+header div{
+    display: flex;
+    width: 100%;
+}
+
+
+body{
+    background-image:url(afbeeldingen/Tekengebied1.jpg);
+    background-size: 200vw;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 1.4em;
+}
+
+.onze-banaan{
+    color:#FFDD10;
+}
+
+.text-catchphrase{
+    color: white;
+    font-size: 5em;
+}
+
+.new-video{
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    margin-top:0;
+    transition: 0.3s;
+}
+
+.new-video:hover{
+    transform: scale(1.1);
+}
+
+.thumbnail-container{
+    display:flex;
+    justify-content: center;
+    margin-top:3em;
+    margin-bottom: 20em;
+}
+
+
+main h2{
+    color: white;
+    margin-top: 1em;
+    margin-left: 1.1em;
+    margin-bottom: 0.5em;
+    font-size: 5em;
+}
+
+.afleveringen-geel{
+    color:#FFDD10;
+}
+
+.video-container1{
+    background-color: rgba(0, 0, 0, 0.344);
+    display: flex; 
+    margin-bottom: 1.5em; 
+    padding: 1em; 
+    border-radius: 5px;
+    flex-wrap: wrap; 
+    margin: 4em;
+}
+
+.episode-details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    margin:2em;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: black; 
+    opacity: 0.83;
+    padding: 2rem; 
+    text-align: center; 
+    width: 97.4%;
+}
+
+footer h4 {
+    color: white;
+    font-size: 1.5em; 
+    margin-bottom: 1em; 
+}
+
+footer p {
+    color: white;
+    margin: 0.5em 0; 
+}
+
+footer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+footer li {
+    display: inline; 
+    margin: 0 1em; 
+}
+
+footer img {
+    width: 5%; 
+    height: auto; 
+    transition: transform 0.3s; 
+}
+
+footer img:hover {
+    transform: scale(1.1); 
+}
+
+footer a {
+    text-decoration: none; 
+    color: #FFDD10; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+footer div {
+    margin-bottom: 1.5rem; 
+}
+
+
+main h3{
+    color: white;
+    font-size: 1.5em;
+}
+
+.over-ons-main-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile-box{
+    background-color: black;
+    color: white;
+    width: 35em;
+    padding:1em;
+    margin-bottom: 10em;
+    transition: 0.3s;
+}
+.profile-box:hover{
+    transform: scale(1.1);
+}
+
+.profile-img{
+    width:35em;
+    height: 40em;
+}
+
+.profile-description{
+    display: flex;
+    text-align: center;
+    margin-top: 1em;
+}
+
+h4{
+    text-align: center;
+    color: #FFDD10;
+}
+
+.ons-geel{
+    color: #FFDD10;
+}
